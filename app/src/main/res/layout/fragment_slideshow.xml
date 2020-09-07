@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".ui.slideshow.SlideshowFragment">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    >
+
+    <TextView
+        android:id="@+id/text_slideshow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:text="SRKR Principal's Message:"
+        android:textSize="30sp"
+        android:textColor="#0B37A6"
+        android:fontFamily="bold"
+        android:layout_gravity="center"
+        android:shadowColor="@color/colorPrimaryDark"
+        android:shadowRadius="3"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_margin="10dp"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:src="@drawable/principal2"
+            android:background="@drawable/border3"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:fontFamily="bold"
+            android:padding="5dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/border2"
+            android:text="I welcome you to the online home of SRKR Engineering College, China Amiram and thank you for your interest in our institution. SRKR Engineering College is the cradle of technical education in the Godavari Delta and has been a launch pad for many dreams to become global citizens for the past forty years. The first batch students of this college, now in the twilight years of their careers have been guiding stars and luminaries in their organisations and their communities, globally. Our alumni consistently acknowledge the significance of their college life in shaping their careers and family life"
+            />
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

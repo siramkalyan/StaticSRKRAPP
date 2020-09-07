@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.MissionFragment" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+  >
+
+<TextView
+    android:padding="30dp"
+    android:fontFamily="bold"
+    android:shadowRadius="5"
+    android:shadowColor="#F44336"
+    android:layout_gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:textSize="30dp"
+    android:text="vision"
+    android:letterSpacing="0.2"
+    android:focusable="true"
+    android:textAllCaps="true"
+    android:textColor="#F44336"
+    android:background="@drawable/border1"
+    android:layout_marginStart="5dp"
+    android:layout_marginLeft="5dp"
+    />
+    <TextView
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:background="@drawable/border2"
+        android:text="Sagi Rama Krishnam Raju Engineering College will be offering Engineering and Technology Programs of choice, where parents want to send their children, where students want to learn, where employers seek Quality Engineers and Technologists, where Industry and Government find Technological Innovations.."
+        />
+    <TextView
+        android:padding="30dp"
+        android:fontFamily="bold"
+        android:shadowRadius="5"
+        android:shadowColor="#F44336"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="30dp"
+        android:text="mission"
+        android:letterSpacing="0.2"
+        android:focusable="true"
+        android:textAllCaps="true"
+        android:textColor="#F44336"
+        android:background="@drawable/border1"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        />
+    <TextView
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:background="@drawable/border2"
+        android:text="Eminence in Technical Education through the quality of programs, teaching and research with social relevance."
+        />
+
+</LinearLayout>
+</ScrollView>
